@@ -2,7 +2,7 @@
 
 $(function(){
     $(".element").typed({
-        strings: ["Inventor.", "Problem Solver.", "Gamer.", "Friend", "Contemplator.", "Bartender.", "Developer."],
-        typeSpeed: 0
+        strings: ["Inventor.", "Problem Solver.", "Gamer.", "Friend.", "Thinker.", "Bartender.", "Developer."],
+        typeSpeed: 100
     });
 });
