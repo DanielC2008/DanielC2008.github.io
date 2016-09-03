@@ -14,7 +14,17 @@ img {
 	font-size: 3rem;
 	background-color: black;
 	color: white;
-	top: 50%;
+	top: 55%;
+}
+
+@media only screen and (max-width: 736px) {
+	#typed {
+	position: absolute;
+	font-size: 1rem;
+	background-color: black;
+	color: white;
+	top: 55%;
+}
 }
 
 .typed-cursor{
@@ -38,3 +48,4 @@ img {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
