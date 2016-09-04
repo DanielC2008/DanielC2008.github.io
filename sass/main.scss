@@ -4,9 +4,7 @@ body {
 	// background-image: url(../img/chalkboard.jpg);
 }
 
-.bottom-border {
-	border-bottom: 2rem solid white;
-}
+
 ////////////// NAV //////////////
 nav {
 	padding-left: 25px;
@@ -94,5 +92,17 @@ img {
 		width: 30%;
 	  margin: auto;
 	}
+}
+
+img {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+/* Disable grayscale on hover */
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
 
