@@ -71,12 +71,23 @@ img {
 ////////////// INFO //////////////
 .info-div {
 	color: white;
+	padding: 2%;
 }
 @media only screen and (max-width: 736px) {
 	.juggle-container {
 		display: none;
 	}
 }
+
+.space {
+	margin: 1rem;
+}
+
+b {
+	font-weight: 2.5rem;
+}
+
+
 
 ////////////// TECH //////////////
 .tech {
@@ -105,4 +116,5 @@ img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
 }
+
 
