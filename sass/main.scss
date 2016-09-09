@@ -90,18 +90,16 @@ b {
 
 
 ////////////// TECH //////////////
-.tech {
+.section {
 	color: white;
 	font-size: 2rem;
-	width: 25%;
-  margin: auto;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 500px) {
-	.tech {
+	.section-title {
 		font-size: 1.5rem;
-		width: 30%;
-	  margin: auto;
 	}
 }
 
@@ -118,3 +116,8 @@ img:hover {
 }
 
 
+////////////// Work //////////////
+.text {
+	text-align: center;
+	color: white;
+}

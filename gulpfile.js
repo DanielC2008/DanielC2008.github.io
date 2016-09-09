@@ -18,7 +18,7 @@ gulp.task('lint', function() {
 });
 
 gulp.task('sass', function() {
-  return gulp.src('sass/*.scss')
+  gulp.src('sass/*.scss')
     // sourcemaps + sass + error handling
     .pipe(sourcemaps.init())
     .pipe(sass({
