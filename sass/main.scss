@@ -1,7 +1,6 @@
 ////////////// BODY //////////////
 body {
 	background-color: #141414;
-	// background-image: url(../img/chalkboard.jpg);
 }
 
 
@@ -25,7 +24,17 @@ img {
 	width: 100%;
   height: auto;
   max-width: 100%;
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
+
+/* Disable grayscale on hover */
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
 
 #typed {
 	position: absolute;
@@ -94,7 +103,7 @@ b {
 	color: white;
 	font-size: 2rem;
 	text-align: center;
-	margin-bottom: 30px;
+	padding: 0;
 }
 
 @media only screen and (max-width: 500px) {
@@ -103,21 +112,23 @@ b {
 	}
 }
 
-img {
-  filter: gray; /* IE6-9 */
-  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+img#ejs {
+	filter: invert(100%) !important;
 }
-
-/* Disable grayscale on hover */
-img:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-}
-
 
 ////////////// Work //////////////
 .text {
 	text-align: center;
 	color: white;
+}
+
+.work-img {
+	padding: 20px 0;
+}
+
+.github {
+	font-size: 2.5rem;
+	text-align: center;
+	color: white;
+	margin-bottom: 20px
 }
