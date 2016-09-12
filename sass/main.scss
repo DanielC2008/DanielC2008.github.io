@@ -1,0 +1,135 @@
+////////////// BODY //////////////
+body {
+	background-color: #141414;
+}
+
+
+////////////// NAV //////////////
+nav {
+	padding-left: 25px;
+	padding-right: 25px;
+	position: absolute;
+	color: black;
+	top: 0%;
+}
+
+
+////////////// TITLE //////////////
+.img-container{
+	position: relative;
+	padding: 0 !important;
+}
+
+img {
+	width: 100%;
+  height: auto;
+  max-width: 100%;
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+/* Disable grayscale on hover */
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+
+#typed {
+	position: absolute;
+	font-size: 3rem;
+	background-color: black;
+	color: white;
+	top: 55%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 736px) {
+		#typed {
+		position: absolute;
+		font-size: 1rem;
+		background-color: black;
+		color: white;
+		top: 55%;
+	}
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+////////////// INFO //////////////
+.info-div {
+	color: white;
+	padding: 4%;
+}
+@media only screen and (max-width: 736px) {
+	.juggle-container {
+		display: none;
+	}
+}
+
+.space {
+	margin: 1rem;
+}
+
+b {
+	font-weight: 2.5rem;
+}
+
+
+
+////////////// TECH //////////////
+.section {
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+	padding: 0;
+}
+
+@media only screen and (max-width: 500px) {
+	.section-title {
+		font-size: 1.5rem;
+	}
+}
+
+img#ejs {
+	filter: invert(100%) !important;
+}
+
+////////////// Work //////////////
+.text {
+	text-align: center;
+	color: white;
+}
+
+.work-img {
+	padding: 20px 0 !important;
+}
+
+////////////// Contact //////////////
+.contact {
+	display: inline-block;
+	margin: 0 14%;
+	max-width: 5%;
+}
