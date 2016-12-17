@@ -2,4 +2,6 @@ node_modules
 .sublime-gulp.cache
 Thumbs.db
 styles/main.css
+bower_components
+bower.json
 
