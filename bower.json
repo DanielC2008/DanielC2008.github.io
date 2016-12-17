@@ -1,0 +1,17 @@
+{
+  "name": "personalWebsiteProject",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Joseph Daniel Chapdelaine <orvist@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/DanielC2008/personalWebsite",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
